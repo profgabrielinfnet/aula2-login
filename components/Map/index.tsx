@@ -1,8 +1,6 @@
-import { View } from "react-native";
 import { Container, Header } from "./styles";
 
-
-export default function Map({ localization }: any) {
+export default function Map({ localization }: { localization: string }) {
     return (
         <Container>
             <Header>Map: {localization}</Header>

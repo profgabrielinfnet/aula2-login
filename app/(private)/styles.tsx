@@ -11,3 +11,8 @@ export const Header = styled.Text`
     font-size: 26px;
 `
 
+export const MapContainer = styled.View`
+    display: flex;
+    flex-direction: row;
+`
+
